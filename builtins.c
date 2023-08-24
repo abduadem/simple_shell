@@ -40,9 +40,10 @@ int (*check_builtins(char **cmmd))(char **, int, char *)
 }
 
 /**
- * cmmnd_env - builtin implementation of env command
+ * cmmd_env - builtin implementation of env command
  * @cmmd: Unused
  * @status: the status code
+ * @fname: filename
  *
  * Return: Always 0
  */
@@ -66,6 +67,7 @@ int cmmd_env(char **cmmd, int status, char *fname)
  * cmmd_exit - builtin Implementation of exit command
  * @cmmd: an array of given command and its arguments
  * @status: the status code
+ * @fname: filename
  *
  * Return: exit with the status code given by user, or
  * previous execution status code

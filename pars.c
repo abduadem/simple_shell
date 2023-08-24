@@ -15,7 +15,7 @@ char *rm_nl(char *line)
 }
 
 /**
- * parse_input - parses the line entered by the user
+ * input_parse - parses the line entered by the user
  * @line: the given input
  *
  * Return: an array of tokkn present in @line

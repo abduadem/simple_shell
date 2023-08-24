@@ -26,7 +26,7 @@ char *path_build(char *tokkn, char *value)
 }
 
 /**
- * check_cmd_path - check if command is in path
+ * check_cmmd_path - check if command is in path
  * @cmmd: an array of command strings
  *
  * Return: 0 if found, else 1
